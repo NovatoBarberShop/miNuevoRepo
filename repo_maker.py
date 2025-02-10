@@ -24,7 +24,7 @@ def is_addon_dir(addon):
 class Generator:
     def __init__(self):
         self.addons_xml = os.path.join(repo_root, "addons.xml")
-        self.addons_xml_md5 = os.path.join(repo_root, "addons.xml.md5")
+        self.addons_xml_md5 = os.path.join(repo_root, "addons.md5")
         self._generate_addons_files()
 
     def _generate_addons_files(self):

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="repository.kodi-spain" version="1.0.0" name="Kodi Spain" provider-name="Kodi">
     <extension point="xbmc.addon.repository" name="Kodi-Spain official Repo" version="1.0.0">
-        <info compressed="false">https://NovatoBarberShop.github.io/miNuevoRepo/addons.xml</info>
-        <checksum>https://NovatoBarberShop.github.io/miNuevoRepo/addons.xml.md5</checksum>
-        <datadir zip="true">https://NovatoBarberShop.github.io/miNuevoRepo/</datadir>
+    <info compressed="false">https://NovatoBarberShop.github.io/miNuevoRepo/addons.xml</info>
+    <checksum>https://NovatoBarberShop.github.io/miNuevoRepo/addons.md5</checksum>
+    <datadir zip="true">https://NovatoBarberShop.github.io/miNuevoRepo/</datadir>
     </extension>
 
     <requires>
