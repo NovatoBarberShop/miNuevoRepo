@@ -1,0 +1,313 @@
+# Kodi Media Center language file
+# Addon Name: JackTorr
+# Addon id: plugin.video.jacktorr
+# Addon Provider: Sam-Max
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Settings
+msgctxt "#30000"
+msgid "General"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Service port"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Buffering timeout"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Show status overlay"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Login"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Password"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Download path"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Connections limit"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Cache size (MB)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "ReaderReadAHead"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Preload Cache (%)"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Disable DHT"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Disable UPNP"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Enable IPv6"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Ssl Connection"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Not add"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Add"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Max download rate (B/s)"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Max upload rate (B/s)"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Peers Listen Port"
+msgstr ""
+
+msgctxt "#30037"
+msgid "DhtConnectionLimit"
+msgstr ""
+
+msgctxt "#30038"
+msgid "TorrentDisconnectTimeout"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Force Encrypt"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Remove"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Replace"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Disable TCP"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Disable UTP"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Disable PEX"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Disable Upload"
+msgstr ""
+
+msgctxt "#30047"
+msgid "RetrackersMode"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Use Disk"
+msgstr ""
+
+msgctxt "#30049"
+msgid "RemoveCacheOnDrop"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Enable Debug"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Host"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Port"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Login"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Password"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Minimum video candidate size (MB)"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Ask to remove torrent after streaming"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Enable Service"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Service address"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Order files by"
+msgstr ""
+
+msgctxt "#30065"
+msgid "ID"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Name"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Size"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Enable DLNA"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Enable RutorSearch"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Metadata timeout"
+msgstr ""
+
+# Service
+msgctxt "#30100"
+msgid "JackTorr - First run"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Please set the server configuration so you can properly use JackTorr. Feel free to also change any other settings."
+msgstr ""
+
+msgctxt "#30102"
+msgid "Error..."
+msgstr ""
+
+# Plugin
+msgctxt "#30200"
+msgid "Insert file or URL"
+msgstr ""
+
+msgctxt "#30201"
+msgid "URL"
+msgstr ""
+
+msgctxt "#30202"
+msgid "File"
+msgstr ""
+
+msgctxt "#30203"
+msgid "Insert URL:"
+msgstr ""
+
+msgctxt "#30204"
+msgid "File path:"
+msgstr ""
+
+msgctxt "#30205"
+msgid "OK"
+msgstr ""
+
+msgctxt "#30206"
+msgid "Torrents"
+msgstr ""
+
+msgctxt "#30207"
+msgid "Add torrent/magnet"
+msgstr ""
+
+msgctxt "#30208"
+msgid "Drop torrent"
+msgstr ""
+
+msgctxt "#30209"
+msgid "Download"
+msgstr ""
+
+msgctxt "#30230"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "#30235"
+msgid "Buffer and play"
+msgstr ""
+
+msgctxt "#30236"
+msgid "Timeout reached"
+msgstr ""
+
+msgctxt "#30237"
+msgid "Waiting for metadata"
+msgstr ""
+
+msgctxt "#30238"
+msgid "Timed out waiting for metadata"
+msgstr ""
+
+msgctxt "#30239"
+msgid "No candidate files found"
+msgstr ""
+
+msgctxt "#30240"
+msgid "Please choose what file to play"
+msgstr ""
+
+msgctxt "#30241"
+msgid "Do you want to remove the torrent?"
+msgstr ""
+
+msgctxt "#30242"
+msgid "Remove torrent"
+msgstr ""
+
+msgctxt "#30243"
+msgid "Torrent added successfully"
+msgstr ""
+
+msgctxt "#30244"
+msgid "of"
+msgstr ""
+
+msgctxt "#30245"
+msgid "Torrent status"
+msgstr ""
