@@ -1,9 +1,0 @@
-<addon id="plugin.video.myaddon" name="Kwa Addon" version="1.0" provider-name="Kwa">
-<extension point="xbmc.python.pluginsource" library="default.py" />
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-</requires>
-    <description>Este es mi addon para Kodi</description>
-    <icon>th.jpg</icon>
-    <fanart>th.jpg</fanart>
-</addon>
