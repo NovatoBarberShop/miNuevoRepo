@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 
+<?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.kodispain" version="1.0" name="Kodi Spain" provider-name="Kodi">
     <extension point="xbmc.addon.repository" name="Kodi-Spain official Repo" version="1.0.0">
     <info compressed="false">https://NovatoBarberShop.github.io/miNuevoRepo/addons.xml</info>
@@ -26,4 +25,3 @@
   <news>0 Actualizaciones</news>
 </extension>
 </addon>
-</addons>
