@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.kodi-spain"
+version="1.0.0"
+name="Kodi Spain"
+provider-name="Kodi">
+	<extension point="repository.kodi-spain" name="Kodi-Spain official Repo">
+		<info compressed="false">https://raw.githubusercontent.com/kodispain/miNuevoRepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kodispain/miNuevoRepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kodispain/miNuevoRepo/master</datadir>
+	</extension>
+<requires>
+  <import addon="xbmc.python" version="3.0.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">Kodi Spain</summary>
+  <description lang="en_GB">Kodi Spain addon </description>
+  <license>GPL-3.0-only	</license>
+  <assets>
+    <icon>resources/images/icon.png</icon>
+    <fanart>resources/images/fanart.jpg</fanart>
+    <screenshot>resources/images/screenshot-1.jpg</screenshot>
+    <screenshot>resources/images/screenshot-2.jpg</screenshot>
+  </assets>
+  <news>0 Actualizaciones</news>
+</extension>
+</addon>

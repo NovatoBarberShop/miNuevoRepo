@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.ghost"                                                                                                                                    
+	   name="Ghost"                                                 
+	   version="1.5.5"                                                                                                                                        
+	   provider-name="Ghost">
+  <requires>
+	<import addon="script.module.requests"/>
+    <import addon="script.module.resolveurl"/>	
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension library="resources/modules/" point="xbmc.python.module" />
+  <extension library="resources/sources/" point="xbmc.python.module" />
+  <extension library="resources/" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+	<reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en">Ghost Addon</summary>
+    <description lang="en">All in one addon</description>
+	
+    <platform>all</platform>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+			<screenshot>screenshot.jpg</screenshot>
+    </assets>
+  </extension>
+  
+</addon>
+
+<addon id="plugin.video.jacktorr" name="JackTorr" provider-name="Sam-Max" version="0.0.2">
+    <requires>
+        <import addon="script.module.requests" version="2.22.0"/>
+        <import addon="script.module.routing" version="0.2.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="navigation.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>See https://github.com/Sam-Max/plugin.video.jacktorr/blob/master/LICENSE</license>
+        <source>https://github.com/Sam-Max/plugin.video.jacktorr</source>
+        <summary lang="en">TorrServerr on Kodi</summary>
+        <description lang="en">JackTorr is an implementation of TorrServerr service with a rest API which allows torrent streaming.</description>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot>resources/screenshots/screenshot-1.jpg</screenshot>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
+
+<addon id="plugin.video.kodispaintv" name="[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]Tv[/COLOR]" version="3.4.0" provider-name="joheos11">
+	<requires>
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.dateutil" />
+		<import addon="script.module.websocket" />
+		<import addon="script.module.inputstreamhelper" optional="true"/>
+		<import addon="script.module.youtube.dl" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="plugin.video.duffyou" optional="true" />
+		<import addon="script.module.resolveurl" optional="true"/>
+		<import addon="script.module.urlresolver" optional="true"/>
+		<import addon="script.module.cloudscraper" optional="true"/>
+		<import addon="script.module.slproxy" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.repository" name="KodiSpain repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/joheos11/repository.kodispain/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/joheos11/repository.kodispain/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/joheos11/repository.kodispain/master/</datadir>
+		</dir>
+    </extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary>Canales de Televisión, deportes y más...</summary>
+		<description>
+Puedes seguirme en https://t.me/kodispain_1 y http://konectas.es
+
+AVISO LEGAL:
+
+Este complemento no aloja ningun contenido mostrado.
+Todo el contenido se encuentra libremente en internet.
+No se acepta ninguna responsabilidad por el uso de este addon.
+
+¡Disfruta!
+		</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/media/screenshoot-1.jpg</screenshot>
+			<screenshot>resources/media/screenshoot-2.jpg</screenshot>
+			<screenshot>resources/media/screenshoot-3.jpg</screenshot>
+			<screenshot>resources/media/screenshoot-4.jpg</screenshot>
+		</assets>
+		<news>Primera versión basada en LSP Mod by Someone Like You</news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.myaddon" name="Kwa Addon" version="1.0" provider-name="Kwa">
+<extension point="xbmc.python.pluginsource" library="default.py" />
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+</requires>
+    <description>Este es mi addon para Kodi</description>
+    <icon>th.jpg</icon>
+    <fanart>th.jpg</fanart>
+</addon>
+
+<addon id="plugin.video.palantir3" name="[COLOR gold]Palantir 3[/COLOR]" version="3.3.0" provider-name="The Lords Of Flix">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.inputstreamhelper" version="0.5.0"/>
+    <import addon="script.module.pycryptodome" version="3.4.3"/>
+    <import addon="script.module.requests"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.python.library" library="default.py"/>
+
+  <extension point="kodi.context.item">
+      <menu id="kodi.core.main">
+        <item library="context.py">
+          <label>[COLOR gold]Menú Palantir 3...[/COLOR]</label>
+          <visible>String.Contains(ListItem.FolderPath,palantir3)</visible>
+        </item>
+      </menu>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <description>Visualiza el contenido de la nube, series, películas.[CR][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/COLOR]</description>
+    <disclaimer>Este es un software [COLOR red][B]gratuito[/B][/COLOR][CR][COLOR red][B]Pero no se permite[/B][/COLOR] su distribuición preinstalada en ningún tipo de dispositivo ni tampoco su inclusión total o parcial en cualquier paquete de software y/o hardware por el que el usuario final deba [COLOR red][B]pagar o hacer una donación[/B][/COLOR], por su adquisición, por su uso o por recibir asistencia.[CR]Si cree que alguna de estas normas no se está cumpliendo póngase en contacto con nosotros.</disclaimer>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.gif</fanart>
+        <screenshot>resources/media/Captura1.png</screenshot>
+        <screenshot>resources/media/Captura2.png</screenshot>
+        <screenshot>resources/media/Captura3.png</screenshot>
+        <screenshot>resources/media/Captura4.png</screenshot>
+    </assets>
+    <forum>https://t.me/addon_palantir</forum>
+  </extension>
+</addon>
+
+<addon id="repository.kodi-spain"
+version="1.0.0"
+name="Kodi Spain"
+provider-name="Kodi">
+	<extension point="repository.kodi-spain" name="Kodi-Spain official Repo">
+		<info compressed="false">https://raw.githubusercontent.com/kodispain/miNuevoRepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kodispain/miNuevoRepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kodispain/miNuevoRepo/master</datadir>
+	</extension>
+<requires>
+  <import addon="xbmc.python" version="3.0.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">Kodi Spain</summary>
+  <description lang="en_GB">Kodi Spain addon </description>
+  <license>GPL-3.0-only	</license>
+  <assets>
+    <icon>resources/images/icon.png</icon>
+    <fanart>resources/images/fanart.jpg</fanart>
+    <screenshot>resources/images/screenshot-1.jpg</screenshot>
+    <screenshot>resources/images/screenshot-2.jpg</screenshot>
+  </assets>
+  <news>0 Actualizaciones</news>
+</extension>
+</addon>
+</addons>
