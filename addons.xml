@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-
-<addon id="plugin.video.kodispain" version="1.0" name="Kodi Spain" provider-name="Kodi">
+<addon id="plugin.video." version="1.0.0" name="Kodi Spain" provider-name="Kwa Dev">
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
 </requires>
@@ -9,8 +8,9 @@
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en_GB">Kodi Spain</summary>
-  <description lang="en_GB">Kodi Spain addon </description>
+  <summary lang="en_GB">Example Kodi Video Plugin</summary>
+  <description lang="en_GB">An example video plugin for Kodi mediacenter.</description>
+  <disclaimer lang="en_GB">Public domain movies are provided by publicdomainmovie.net.</disclaimer>
   <license>GPL-3.0-only	</license>
   <assets>
     <icon>resources/images/icon.png</icon>
@@ -18,7 +18,7 @@
     <screenshot>resources/images/screenshot-1.jpg</screenshot>
     <screenshot>resources/images/screenshot-2.jpg</screenshot>
   </assets>
-  <news>0 Actualizaciones</news>
+  <news>Updated with latest artwork metadata</news>
 </extension>
 </addon>
 </addons>
